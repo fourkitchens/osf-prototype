@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5 {
   color: black;
 }
 
-h5 {
+h1, h2, h5 {
   font-weight: bold;
 }
 
@@ -20,10 +20,6 @@ section h2 {
   text-transform: uppercase;
   font-size: 20px;
   padding-top: 4px;
-}
-
-.subnav {
-  margin-bottom: 1em;
 }
 
 .panel-body ul {
