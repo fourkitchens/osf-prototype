@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5 {
 h1, h2 {
   font-family: 'league_gothicregular', 'Helvetica Neue', Helvetica, sans;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 h1 {
