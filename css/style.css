@@ -1,15 +1,39 @@
+/* Custom styles */
+
+@font-face {
+  font-family: 'league_gothicregular';
+  src: url('../fonts/leaguegothic-regular-webfont.eot');
+  src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+       url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+       url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Links */
+
 a {
   color: #900;
 }
+
+/* Headings */
 
 h1, h2, h3, h4, h5 {
   margin-top: 0;
   color: black;
 }
 
+h1, h2, h3 {
+  font-family: 'league_gothicregular', 'Helvetica Neue', Helvetica, sans;
+  text-transform: uppercase;
+}
+
 h1, h2, h5 {
   font-weight: bold;
 }
+
+/* Page sections */
 
 section {
   margin-bottom: 40px;
@@ -18,23 +42,15 @@ section {
 section h2 {
   border-top: 4px solid black;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 23px;
   padding-top: 4px;
-}
-
-.panel-body ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
 }
 
 .featured-work article {
   margin-bottom: 20px;
 }
 
-.gray {
-  color: #777777;
-}
+/* White text on red background style */
 
 .newsletter button,
 .newsletter button:hover,
@@ -43,9 +59,24 @@ section h2 {
   color: white;
 }
 
+/* Subnav */
+
 .panel-default>.panel-heading a:hover {
   text-decoration: none;
 }
+
+.panel-body ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.panel-body li {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+/* Articles */
 
 .meta {
   font-weight: bold;
@@ -54,4 +85,10 @@ section h2 {
 
 article img {
   margin-bottom: 3px;
+}
+
+/* Misc */
+
+.gray {
+  color: #777777;
 }
