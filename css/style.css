@@ -34,6 +34,23 @@ h1 {
   font-size: 40px;
 }
 
+/* Nav */
+
+nav {
+  font-size: 16px;
+}
+
+.navbar-nav .open .dropdown-menu>li>a {
+  padding: 10px 15px 10px 25px;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  color: white;
+  background-color: #900;
+}
+
 /* Subnav */
 
 .panel-title a,
@@ -97,7 +114,7 @@ article h3 {
 
 .newsletter button,
 .newsletter button:hover,
-.panel-default>.panel-heading {
+.panel-default > .panel-heading {
   background-color: #900;
   color: white;
 }
