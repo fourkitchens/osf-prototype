@@ -1,5 +1,14 @@
 /* Custom styles */
 
+/* Colors */
+/*
+
+Red: #900
+
+*/
+
+/* Web fonts */
+
 @font-face {
   font-family: 'league_gothicregular';
   src: url('../fonts/leaguegothic-regular-webfont.eot');
@@ -124,4 +133,10 @@ article h3 {
 
 .gray {
   color: #777777;
+}
+
+/* Moving Walls */
+
+.mv-subnav {
+  margin-bottom: 0;
 }
