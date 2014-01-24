@@ -134,21 +134,3 @@ article h3 {
 .gray {
   color: #777777;
 }
-
-/* Moving Walls */
-
-.mv-subnav {
-  margin-bottom: 0;
-}
-
-.moving-walls .hero {
-  margin-bottom: 40px;
-}
-
-.moving-walls .highlights article {
-  margin-bottom: 20px;
-}
-
-.moving-walls .highlights h3 {
-  margin-bottom: 0;
-}

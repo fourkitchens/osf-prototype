@@ -1,0 +1,71 @@
+/* Moving Walls */
+
+body,
+.navbar-default {
+  background: #333;
+  border-color: transparent;
+}
+
+hr {
+  border-color: #292929;
+}
+
+/* Subnav */
+
+.mv-subnav {
+  margin-bottom: 0;
+}
+
+.mv-subnav .btn-default {
+  font-family: 'league_gothicregular';
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #4F646C;
+  background-color: #333;
+  border-color: #292929;
+}
+
+.mv-subnav .btn-default:hover {
+  color: white;
+  background-color: #828282;
+}
+
+.moving-walls .hero {
+  margin-bottom: 40px;
+}
+
+/* Color overrides */
+
+.moving-walls .highlights article {
+  margin-bottom: 20px;
+}
+
+.moving-walls .highlights h3 {
+  margin-bottom: 0;
+}
+
+article small {
+  color: #777;
+}
+
+h1, h2 {
+  color: #999;
+}
+
+h3, a {
+  color: #6096AB;
+}
+
+.newsletter p,
+article p {
+  color: #aaa;
+}
+
+.newsletter button {
+  background-color: #4F646C;
+}
+
+section.block h2 {
+  border-color: #292929;
+  color: #ccc;
+}
