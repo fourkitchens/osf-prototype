@@ -11,6 +11,10 @@
 }
  
 .cbp-spmenu h4 {
+  font-family: 'league_gothicregular';
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: uppercase;
   padding: 20px;
   margin: 0;
   background: #292929;
