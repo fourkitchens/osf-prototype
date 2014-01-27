@@ -20,5 +20,4 @@ Flyout navigation based on this tutorial: http://tympanus.net/codrops/2013/04/17
 
 ### Todo
 
-- [ ] Carousel
-- [x] Moving Walls color scheme
+* Carousel
