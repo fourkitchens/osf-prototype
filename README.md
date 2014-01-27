@@ -16,8 +16,9 @@ http://fourkitchens.github.io/osf-prototype/moving-walls.html
 
 http://www.opensocietyfoundations.org/moving-walls
 
+Flyout navigation based on this tutorial: http://tympanus.net/codrops/2013/04/17/slide-and-push-menus
 
 ### Todo
 
-* Carousel
-* Moving Walls color scheme
+- [ ] Carousel
+- [x] Moving Walls color scheme
